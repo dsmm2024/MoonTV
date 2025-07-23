@@ -235,6 +235,7 @@ function getRootHtml() {
           window.open(currentOrigin + '/' + encodeURIComponent(targetUrl), '_blank');
       }
   </script>
+  <script defer src="https://analytics.dsmm.dpdns.org/tracker.min.js" data-website-id="mtv"></script>
 </body>
 </html>`;
 }
